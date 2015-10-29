@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    
+<!--///////////////////////////////////////////////////////
+////   GROUP PROJECT BY BRIA WALTON, MADDIE WARNDORF,  ////
+////   && CHRISTOPHER JONES FOR WEB DEVELOPMENT GROUP  ////
+////   PROJECT                                         ////
+////////////////////////////////////////////////////////-->
+
+
+<HTML lang="en">
+<HEAD>
+    
+    <!--FONTS-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    
+    <!--JAVASCRIPT-->
+    <SCRIPT src="http://www.milotasks.com/js/jquery.js"></SCRIPT>
+    <SCRIPT src="http://www.milotasks.com/js/jquery-ui.js"></SCRIPT>
+    
+    <!--META DATA-->
+    <META charset="utf-8">
+    
+    <!--STYLING-->
+    <LINK href="main.css" type="text/css" rel="stylesheet">
+    
+    <!--TITLE-->
+    <TITLE>Group Project</TITLE>
+    
+    <!--FAVICON-->
+    
+</HEAD>
+<BODY>
+    <SCRIPT>
+        //INITIATING JQUERY
+        jQuery(function($){
+            $(document).ready(function(){
+                $('#hamburger').click(function(){
+                    $('#nav-ul').toggle(700);
+                });
+            });
+        });
+    </SCRIPT>
+    
+    <!--START #nav-container -->
+    <DIV id='nav-container'>
+        
+        <IMG id='hamburger' src='images/hamburger.png'>
+            
+        <UL id='nav-ul'>
+            <LI class='nav-li'>
+                <A href='index.html'>Link 1</A>
+            </LI>
+            <LI class='nav-li'>
+                <A href='#'>Link 2</A>
+            </LI>
+            <LI class='nav-li'>
+                <A href='#'>Link 3</A>
+            </LI>
+        </UL>
+        
+    </DIV>
+    <!--END #nav-container -->
+    
+    <!--BEGIN #content-container-->
+    <DIV id="content-container">
+        
+    </DIV>
+    <!--END #content-container-->
+</BODY>
+</HTML>
