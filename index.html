@@ -12,7 +12,8 @@
     
     <!--FONTS-->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300italic,300' rel='stylesheet' type='text/css'>
+        
     <!--JAVASCRIPT-->
     <SCRIPT src="http://www.milotasks.com/js/jquery.js"></SCRIPT>
     <SCRIPT src="http://www.milotasks.com/js/jquery-ui.js"></SCRIPT>
@@ -24,7 +25,7 @@
     <LINK href="main.css" type="text/css" rel="stylesheet">
     
     <!--TITLE-->
-    <TITLE>Group Project</TITLE>
+    <TITLE>Kanye 2016</TITLE>
     
     <!--FAVICON-->
     
@@ -40,31 +41,41 @@
             });
         });
     </SCRIPT>
-    
-    <!--START #nav-container -->
-    <DIV id='nav-container'>
+    <!--BEGIN #masthead -->
+    <DIV id="masthead">
         
-        <IMG id='hamburger' src='images/hamburger.png'>
+        <IMG id="brandname" src="images/kanye-logo.png">
+        
+        <!--START #nav-container -->
+        <DIV id='nav-container'>
+                
+            <UL id='nav-ul'>
+                <LI class='nav-li'>
+                    <A href='index.html'>Link 1</A>
+                </LI>
+                <LI class='nav-li'>
+                    <A href='#'>Link 2</A>
+                </LI>
+                <LI class='nav-li'>
+                    <A href='#'>Link 3</A>
+                </LI>
+            </UL>
             
-        <UL id='nav-ul'>
-            <LI class='nav-li'>
-                <A href='index.html'>Link 1</A>
-            </LI>
-            <LI class='nav-li'>
-                <A href='#'>Link 2</A>
-            </LI>
-            <LI class='nav-li'>
-                <A href='#'>Link 3</A>
-            </LI>
-        </UL>
-        
+        </DIV>
+        <!--END #nav-container -->
     </DIV>
-    <!--END #nav-container -->
     
-    <!--BEGIN #content-container-->
-    <DIV id="content-container">
+    
         
+    <!--BEGIN #donate-container-->
+    <DIV id="donate-container">
+        <FORM name="donate-form" id="donate-form">
+            <input name='fname' id='fname' placeholder="First Name">
+            <input name='lname' id='lname' placeholder="Last Name">
+            <input name='address' id='address' placeholder="Street Address">
+            <input name='apt' id='apt' placeholder="Apt/ Unit">
+        </FORM>
     </DIV>
-    <!--END #content-container-->
+    <!--END #donate-container-->
 </BODY>
 </HTML>
