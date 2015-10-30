@@ -21,29 +21,28 @@
     <META charset="utf-8">
     
     <!--STYLING-->
-    <LINK href="main.css" type="text/css" rel="stylesheet">
+    <LINK href="css/main.css" type="text/css" rel="stylesheet">
     
     <!--TITLE-->
     <TITLE>Kanye 2016</TITLE>
     
     <!--FAVICON-->
+    <LINK rel="icon" type="image/png" href="images/kanye-favicon.png">
     
 </HEAD>
 <BODY>
+    
     <SCRIPT>
-        //INITIATING JQUERY
-        jQuery(function($){
-            $(document).ready(function(){
-                
-                
-                
-            });
-        });
+       
+            //ALERT ACKNOWLEDGING AN RSVP
+            function rsvpEvent() {
+                alert("You best be coming! I'm a lyrical genius.");
+            }
+    
     </SCRIPT>
     
-    
     <!--BEGIN #masthead -->
-    <DIV id="masthead">
+    <DIV id="masthead-events">
         
         <IMG id="brandname" src="images/kanye-logo.png">
         
@@ -70,8 +69,106 @@
     </DIV>
     <!--END #masthead -->
     
-        
     
+    <!--BEGIN #schedule-container -->
+    <DIV id='schedule-container'>
+        
+        <h1 id="events-header"><span id='gold-span'>Events</span> you'd best be at!</h1>
+        
+        <TABLE>
+            <TR>
+                <TD class="event">
+                    GOP Presidential Debate
+                </TD>
+                <TD class="location">
+                    Boulder, CO
+                </TD>
+                <TD class="date-time">
+                    Oct 28, 2015, 8pm EST
+                </TD>
+                <TD class="rsvp">
+                    <button onClick="rsvpEvent()" class="attend-btn">Attending</button>
+                </TD>
+            </TR>
+            
+            <TR>
+                <TD class="event">
+                    Chesterton, IA Townhouse Meeting
+                </TD>
+                <TD class="location">
+                    Chesterton, IA
+                </TD>
+                <TD class="date-time">
+                    Nov 1, 2015, 7pm EST
+                </TD>
+                <TD class="rsvp">
+                    <button onClick="rsvpEvent()" class="attend-btn">Attending</button>
+                </TD>
+            </TR>
+             
+            <TR>
+                <TD class="event">
+                    GOP Presidential Debate
+                </TD>
+                <TD class="location">
+                    Milwaukee, MI
+                </TD>
+                <TD class="date-time">
+                    Nov 10, 2015, 6pm EST
+                </TD>
+                <TD class="rsvp">
+                    <button onClick="rsvpEvent()" class="attend-btn">Attending</button>
+                </TD>
+            </TR>
+              
+            <TR>
+                <TD class="event">
+                    GOP Presidential Debate
+                </TD>
+                <TD class="location">
+                    Las Vegas, NV
+                </TD>
+                <TD class="date-time">
+                    Dec 15, 2015, TBD
+                </TD>
+                <TD class="rsvp">
+                    <button onClick="rsvpEvent()" class="attend-btn">Attending</button>
+                </TD>
+            </TR>
+               
+            <TR>
+                <TD class="event">
+                    Rapper Wrongdoing Conference (RWC)
+                </TD>
+                <TD class="location">
+                    Detroit, MI
+                </TD>
+                <TD class="date-time">
+                    Jan 3, 2016, TBD
+                </TD>
+                <TD class="rsvp">
+                    <button onClick="rsvpEvent()" class="attend-btn">Attending</button>
+                </TD>
+            </TR>
+                
+                 
+            <TR>
+                <TD class="event">
+                    Move into White House
+                </TD>
+                <TD class="location">
+                    Washington, D.C.
+                </TD>
+                <TD class="date-time">
+                    January 21, 2017, TBD
+                </TD>
+                <TD class="rsvp">
+                    <button onClick="rsvpEvent()" class="attend-btn">Attending</button>
+                </TD>
+            </TR>
+        </TABLE>    
+    </DIV>
+    <!--END #schedule-container -->
     
     
     <!--BEGIN .footer -->
