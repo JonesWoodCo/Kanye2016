@@ -11,7 +11,6 @@
 <HEAD>
     
     <!--FONTS-->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300italic,300' rel='stylesheet' type='text/css'>
         
     <!--JAVASCRIPT-->
@@ -51,13 +50,19 @@
                 
             <UL id='nav-ul'>
                 <LI class='nav-li'>
-                    <A href='index.html'>Link 1</A>
+                    <A href='index.html'>HOME</A>
                 </LI>
                 <LI class='nav-li'>
-                    <A href='#'>Link 2</A>
+                    <A href='#'>ISSUES</A>
                 </LI>
                 <LI class='nav-li'>
-                    <A href='#'>Link 3</A>
+                    <A href='#'>ME VS. THEM</A>
+                </LI>
+                <LI class='nav-li'>
+                    <A href='#'>EVENTS</A>
+                </LI>
+                <LI class='nav-li'>
+                    <A href='#'>DONATE</A>
                 </LI>
             </UL>
             
@@ -70,10 +75,23 @@
     <!--BEGIN #donate-container-->
     <DIV id="donate-container">
         <FORM name="donate-form" id="donate-form">
-            <input name='fname' id='fname' placeholder="First Name">
-            <input name='lname' id='lname' placeholder="Last Name">
-            <input name='address' id='address' placeholder="Street Address">
-            <input name='apt' id='apt' placeholder="Apt/ Unit">
+            
+            
+            
+            <INPUT type='text' name='fname' id='fname' placeholder="First Name" required>
+            <INPUT type='text' name='lname' id='lname' placeholder="Last Name" required>
+            <BR />
+            
+            <INPUT type='text' name='address' id='address' placeholder="Street Address" required>
+            <INPUT type='text' name='apt' id='apt' placeholder="Apt/ Unit" required>
+            <BR />
+                
+            <INPUT type='text' name='ccnum' id='ccnum' placeholder="Card Number" required>
+            <INPUT type='text' name='expiration' id='expiration' placeholder="Expiration MM/YY" required>
+            <INPUT type='text' name='cvv' id='cvv' placeholder="CVV" required>
+            <BR />
+            
+            <INPUT type='submit' id='submit' value='DONATE!'>
         </FORM>
     </DIV>
     <!--END #donate-container-->

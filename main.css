@@ -12,6 +12,12 @@ a{
     text-decoration: none;
 }
 
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 15px;
+}
 
 /*//////////////////////////////////
 /////     MASTHEAD STYLING     /////
@@ -32,7 +38,7 @@ a{
     background: transparent; 
     min-height: 60px;
     position: absolute;
-    top: 20px;
+    top: 13px;
     width: 100%;
 }
 
@@ -44,12 +50,16 @@ a{
 
 .nav-li{
     display: inline-block;
-    margin: 20px 20px;
+    margin: 20px 40px;
 }
 .nav-li>a{
     color: #07334f;
+    font-size: 22px;
+    font-weight: bold;
 }
-
+.nav-li>a:hover{
+    color: #309bdb;
+}
 #hamburger{
     float: left;
     margin: 18px;
@@ -58,4 +68,39 @@ a{
 }
 #hamburger:hover{
     opacity: 0.7;
+}
+
+
+/*//////////////////////////////////
+/////     DONATION STYLING     /////
+//////////////////////////////////*/
+
+#donate-container{
+    background-color: #07334f;
+    padding: 30px 0;
+}
+#fname,#lname{
+    width: 200px;
+}
+#address{
+    width: 320px;
+}
+#apt{
+    width: 80px;
+}
+#ccnum{
+    width: 200px;
+}
+#cvv{
+    width:  25px;
+}
+#submit{
+    color: #fff;
+    font-weight: bold;
+    background-color: #309bdb;
+    width: 100px;
+    cursor:pointer;
+}
+#submit:hover{
+    opacity: 0.9;
 }
