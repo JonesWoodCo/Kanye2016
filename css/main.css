@@ -87,13 +87,12 @@ p{
 #donate-header{
     color: #309bdb;
     margin-top: 65px;
-    font-size: 44px;
+    font-size: 39px;
 }
 #gold-span{
     color: #eecb9f ;
 }
 .amount{
-    font-weight: bold;
     font-size: 24px;
     color: #309bdb;
 }
@@ -138,5 +137,5 @@ p{
     
 }
 .footer-logo{
-    width: 300px;
+    width: 510px;
 }
