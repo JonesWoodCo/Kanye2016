@@ -31,12 +31,16 @@
     
 </HEAD>
 <BODY>
-    <SCRIPT>
+     <SCRIPT>
         //INITIATING JQUERY
         jQuery(function($){
+            
+            //THINGS TO HAPPEN ONCE PAGE HAS BEEN LOADED
             $(document).ready(function(){
                 
-                
+                //REMOVES THE CLASS THAT HAS HAS MARGIN-LEFT SET TO 100%
+                //(JUST WAY OUT OF THE SCREENS VIEW) AT A SPEED OF 900 MILLISECONDS
+                $('#brandname').removeClass('startLogo', 900);
                 
             });
         });
@@ -46,7 +50,7 @@
     <!--BEGIN #masthead -->
     <DIV id="masthead-issues">
         
-        <IMG id="brandname" src="images/kanye-logo.png">
+        <IMG id="brandname" class="startLogo" src="images/kanye-logo.png">
         
         <!--START #nav-container -->
         <DIV id='nav-container'>
