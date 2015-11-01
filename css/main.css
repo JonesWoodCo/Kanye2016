@@ -204,3 +204,39 @@ td{
     width: 100px;
     cursor:pointer;
 }
+
+/*//////////////////////////////////
+/////      ISSUES  STYLING     /////
+//////////////////////////////////*/
+#issues-container{
+    background-color: #07334f;
+    padding: 30px 0 0;
+    color: #fff;
+}
+#issues-quote{
+    color: #309bdb;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 60px;
+}
+#issues-section{
+    padding: 30px 0;
+    background-color: #309bdb;
+    color: #07334f;
+}
+/*//////////////////////////////////
+/////        VS  STYLING       /////
+//////////////////////////////////*/
+#vs-container{
+    background-color: #07334f;
+    padding: 30px 0 0;
+    color: #fff;
+}
+#vs-section{
+    padding: 30px 0;
+    background-color: #309bdb;
+    color: #07334f;
+}
