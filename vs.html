@@ -24,12 +24,19 @@
     <LINK href="css/main.css" type="text/css" rel="stylesheet">
     <STYLE>
         #brandname{
-            margin-top: 70vh;
+            margin-top: 43vh;
+            margin-right: 50%;
+            width: 600px;
+        }
+        #slogan{
+            width: 600px;
+            margin-top: -52px;
+            margin-right: 50%;
         }
     </STYLE>
     
     <!--TITLE-->
-    <TITLE>Kanye 2016</TITLE>
+    <TITLE>Kanye 2020</TITLE>
     
     <!--FAVICON-->
     <LINK rel="icon" type="image/png" href="images/kanye-favicon.png">
@@ -45,9 +52,15 @@
                 
                 //REMOVES THE CLASS THAT HAS HAS MARGIN-LEFT SET TO 100%
                 //(JUST WAY OUT OF THE SCREENS VIEW) AT A SPEED OF 900 MILLISECONDS
-                $('#brandname').removeClass('startLogo', 900);
+                //AND UPON COMPLETION OF THAT ANIMATION, THE FUNCTION startSlogan
+                //IS INITIATED, REMOVING THE margin-left: 100% attribute
+                
+                $('#brandname').removeClass('startLogo', 900, startSlogan);
                 
             });
+            function startSlogan(){
+                $('#slogan').removeClass('startSlogan', 900);
+            }
         });
     </SCRIPT>
     
@@ -56,7 +69,8 @@
     <DIV id="masthead-vs">
         
         <IMG id="brandname" class="startLogo" src="images/kanye-logo.png">
-        
+        <IMG id="slogan" class="startSlogan" src="images/kanye-slogan.png">
+            
         <!--START #nav-container -->
         <DIV id='nav-container'>
             <UL id='nav-ul'>
@@ -80,8 +94,23 @@
     </DIV>
     <!--END #masthead -->
     
+       
         
-   
+   <!--BEGIN #vs-container -->
+   <DIV id="vs-container">
+        <p id="issues-quote">
+            'Visiting my mind is like visiting the Hermes factory. Sh*t is real.'
+        </p>
+        
+        <!--BEGIN #vs-section-->
+        <div id="vs-section">
+            
+        </div>
+        <!--END #vs-section-->
+        
+   </DIV>
+    <!--END #vs-container-->
+    
     
     
     <!--BEGIN .footer -->
