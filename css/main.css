@@ -70,9 +70,15 @@ td{
     background-size: auto 100%;
 }
 #brandname{
-    margin-top: 60vh;
+    margin-top: 50vh;
+}
+#slogan{
+    margin-top: -63px;
 }
 .startLogo{
+    margin-left: 100%;
+}
+.startSlogan{
     margin-left: 100%;
 }
 #nav-container{

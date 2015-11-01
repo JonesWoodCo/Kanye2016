@@ -40,9 +40,12 @@
                 
                 //REMOVES THE CLASS THAT HAS HAS MARGIN-LEFT SET TO 100%
                 //(JUST WAY OUT OF THE SCREENS VIEW) AT A SPEED OF 900 MILLISECONDS
-                $('#brandname').removeClass('startLogo', 900);
+                $('#brandname').removeClass('startLogo', 900, sloganStart);
                 
             });
+            function sloganStart(){
+                $('#slogan').removeClass('startSlogan', 900);
+            };
         });
     </SCRIPT>
     
@@ -51,7 +54,8 @@
     <DIV id="masthead">
         
         <IMG id="brandname" class='startLogo' src="images/kanye-logo.png">
-        
+        <IMG id="slogan" class="startSlogan" src="images/kanye-slogan.png">
+
         <!--START #nav-container -->
         <DIV id='nav-container'>
             <UL id='nav-ul'>
