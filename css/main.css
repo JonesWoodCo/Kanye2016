@@ -224,8 +224,26 @@ td{
 }
 #issues-section{
     padding: 30px 0;
-    background-color: #309bdb;
-    color: #07334f;
+    color: #309bdb;
+}
+.section-header{
+    color: #309bdb;
+}
+#issues-section>TABLE{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.issue{
+    color: #bb494a;
+    width: 175px;
+    font-weight: bold;
+    vertical-align: sub;
+}
+.response{
+    padding-bottom: 30px;
 }
 /*//////////////////////////////////
 /////        VS  STYLING       /////
@@ -237,6 +255,5 @@ td{
 }
 #vs-section{
     padding: 30px 0;
-    background-color: #309bdb;
-    color: #07334f;
+    color: #309bdb;
 }
