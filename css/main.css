@@ -260,12 +260,16 @@ td{
 .vs-table{ background-color: #07334f;
     padding: 30px 0;
     color: #fff;
-    border: 0px !important;
+    border: #07334f;
 }
 .vs-best{
     background-color: #07334f;
     padding: 30px 0;
     color: #fff;
+    font-size: 16px;
 }
-.vs-best>h3{ color: #ff0000;}
+.vs-best>h3{
+    color: #ff0000;
+    font-size: 25px;
+}
     
