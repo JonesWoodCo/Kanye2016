@@ -256,6 +256,9 @@ td{
 #vs-section{
     color: #309bdb;
 }
+.vsheader{
+    margin-bottom: 0 !important;
+}
 .vs-table{ background-color: #07334f;
     padding: 30px 0;
     color: #fff;
@@ -263,13 +266,19 @@ td{
 }
 .vs-best{
     background-color: #07334f;
-    padding: 30px 0;
-    color: #fff;
+    color: #bb494a;
     font-size: 16px;
+    margin-top: 0 !important;
 }
 .vs-best>h3{
-    color: #ff0000;
+    color: #bb494a;
     font-size: 25px;
+    margin-top: 0 !important;
+    background-color: #07334f;
+}
+#vsheader{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 /*//////////////////////////////////
 ///// VOLUNTEER  STYLING       /////
