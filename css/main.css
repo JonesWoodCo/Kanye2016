@@ -271,4 +271,27 @@ td{
     color: #ff0000;
     font-size: 25px;
 }
-    
+/*//////////////////////////////////
+///// VOLUNTEER  STYLING       /////
+//////////////////////////////////*/
+.volunteer{ margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #07334f; 
+        overflow-x: hidden; } 
+ .volheading{ color: #309bdb; }
+ input,button{ padding: 10px;
+                border-radius: 20px;
+                border: none;
+                margin: 15px; }
+ .volform { color: #309bdb;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 10px; }
+ #submit { color: #fff;
+           font-weight: bold;
+           background-color: #309bdb;
+           width: 100px;
+           cursor:pointer; }
+ #submit:hover { opacity: 0.9; }
+ 
