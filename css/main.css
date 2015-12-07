@@ -254,19 +254,53 @@ td{
     color: #fff;
 }
 #vs-section{
-    padding: 30px 0;
     color: #309bdb;
 }
-
+.vsheader{
+    margin-bottom: 0 !important;
+}
+.vs-table{ background-color: #07334f;
+    padding: 30px 0;
+    color: #fff;
+    border: #07334f;
+}
+.vs-best{
+    background-color: #07334f;
+    color: #bb494a;
+    font-size: 16px;
+    margin-top: 0 !important;
+}
 .vs-best>h3{
-    color: #990000;
+    color: #bb494a;
+    font-size: 25px;
+    margin-top: 0 !important;
+    background-color: #07334f;
 }
-.vs-table>table{
-    text-align: center;
-    border-collapse: collapse;
-    border-color: #07334f;
+#vsheader{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
-.vs-table>table>caption{
-    font-size: large;
-    font-weight: bold;
-}
+/*//////////////////////////////////
+///// VOLUNTEER  STYLING       /////
+//////////////////////////////////*/
+.volunteer{ margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #07334f; 
+        overflow-x: hidden; } 
+ .volheading{ color: #309bdb; }
+ input,button{ padding: 10px;
+                border-radius: 20px;
+                border: none;
+                margin: 15px; }
+ .volform { color: #309bdb;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 10px; }
+ #submit { color: #fff;
+           font-weight: bold;
+           background-color: #309bdb;
+           width: 100px;
+           cursor:pointer; }
+ #submit:hover { opacity: 0.9; }
+ 
